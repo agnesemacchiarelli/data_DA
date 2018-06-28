@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
+            type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Documenti d'Amore</title>
+            <respStmt>
+               <resp>Responsabile della codifica</resp>
+               <persName>
+                  <forename>Gaia</forename>
+                  <surname>Tomazzoli</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><p></p></publicationStmt>
+         <sourceDesc><p></p></sourceDesc>
+      </fileDesc>
+   </teiHeader>
+
+   <facsimile>
+      <surface>
+         <graphic url="http://digi.vatlib.it/iiifimage/MSS_Barb.lat.4076/Barb.lat.4076_0020_fa_0006v-7r.jp2/full/full/0/default.jpg"/>
+         <zone points="404,135 458,134 459,296 333,299 334,265 404,261" xml:id="zone_6v-7r_Verso_Translatio_destra"/>
+      </surface>
+   </facsimile>
+
+   <text>
+      <body>
+         <div type="Translatio_destra">
+            <pb ed="MSS_Barb_lat_4076" facs="#zone_6v-7r_Verso_Translatio_destra" xml:id="pb_6v-7r_Verso_Translatio_destra" />
+            <ab>
+               <pb ed="Egidi" n="65" xml:id="Egidi_translatio_65"/>
+               illo perpendere, qui membrorum mobili utitur, assiduitate loquendo ¶ Namque proprie
+               <pb ed="Egidi" n="66" xml:id="Egidi_translatio_66"/>
+               ymaginando videmus, omnem consistere in medietate virtutem ¶ Quibusdam exceptis, quas solum stare congnovimus ex certorum opposito vitiorum .
+               <pb ed="Egidi" n="67" xml:id="Egidi_translatio_67"/>
+               Quare si ab
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>
