@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
+            type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Documenti d'Amore</title>
+            <respStmt>
+               <resp>Responsabile della codifica</resp>
+               <persName>
+                  <forename>Agnese</forename>
+                  <surname>Macchiarelli</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><p></p></publicationStmt>
+         <sourceDesc><p></p></sourceDesc>
+      </fileDesc>
+   </teiHeader>
+
+   <facsimile>
+      <surface>
+         <graphic url="http://digi.vatlib.it/iiifimage/MSS_Barb.lat.4076/Barb.lat.4076_0024_fa_0010v-11r.jp2/full/full/0/default.jpg"/>
+         <zone points="538,87 738,76 741,119 633,127 641,560 750,559 755,686 557,695" xml:id="zone_10v-11r_Recto_Apparatus_sinistra"/>
+      </surface>
+   </facsimile>
+
+   <text>
+      <body>
+         <div type="Apparatus_sinistra">
+            <pb ed="MSS_Barb_lat_4076" facs="#zone_10v-11r_Recto_Apparatus_sinistra" xml:id="pb_10v-11r_Recto_Apparatus_sinistra" />
+            
+            <ab>
+               
+                <pb ed="Egidi" n="111" xml:id="Egidi_app_sx_111"/>
+               servare non totaliter est 
+               
+                dan<pb ed="Egidi" n="112" xml:id="Egidi_app_sx_112"/>nandum
+               quia inpari casu et pedes ac sine hense hoc eligibilius videtur non tamen sine
+               exceptione ut servant . Sequitur
+               
+               <label  type="marginalia" place="margin_left"><hi rend="underlined_red">protestatio</hi></label>
+               
+               alia lictera  Sed ante omnia tibi actendendum est quod 
+               cum<note>cum<hi rend="italic">nell'interlineo</hi></note>
+               de istis moribus et multis aliis dudum quedam tractaverim in libro florum novellarum
+               de quo supra in prohemio fit mentio
+               in glosa<note>in glosa<hi rend="italic">è aggiunto sopra.</hi></note>
+               que ut michi relata fuerant et in scriptis exhibita recitabam, nunc in aliquibus
+               ea que presentibus glosis intersero discordare videntur ab illis, cum diligentiori 
+               studio et correctis magis libris hec conatus sum recenseri .
+               quare<note><hi rend="italic">Segue nel ms.</hi>q<hi rend="italic">cancellato ed espunto.</hi></note>
+               quicquid in libro illo
+               dicatur<note><hi rend="italic">Dopo</hi>dicatur<hi rend="italic">nel cod. fu scritta una</hi>o<hi rend="italic">e poi espunta.</hi></note>
+               si in aliquo discorde 
+               
+               <label type="marginalia" place="margin_left"><hi rend="underlined_red">de mantello</hi></label>
+               
+               daret ab istis, huic tibi lictere dico standum. 
+               
+               <hi rend="italic">Si vero pluerit etc</hi>
+               
+               clara est lictera sed non videtur utentium moribus approbata . et licet non reperiatur hoc
+               monitum scriptum, lege in dicto libro florum novellarum invenies dominum Beriolam 
+               equitantem<note><hi rend="italic">Il ms. ha propriamente:</hi>equitatem</note>
+               versus Ariminum hoc
+               servasse<note><hi rend="italic">Segue nel ms.</hi>ac<hi rend="italic">cancellato</hi></note>
+               cum domino
+               
+               <label type="marginalia" place="margin_left"><hi rend="underlined_red">de cappello</hi></label>
+               
+               comite Malvicino et ibi plurima dicta pulcra .
+               
+               <hi rend="italic">de capello</hi>
+               
+               et hec plana nam sicut hoc est minus obsequium et
+               tibi minus dannum ita in hoc peccare maius est vitium . unde nota quod qui expectat 
+               tentationem ad peccatum minus peccando
+               peccat<note><hi rend="italic">Nel ms.</hi>peccadt<hi rend="italic">con un segno d'abbreviazione
+               cancellato sopra l'</hi>a<hi rend="italic">, e la</hi>d<hi rend="italic">espunta</hi></note>
+               quam qui ultro se offerunt . quod facit
+               ad questionem quod cum turpi maius est quam cum pulcra peccatum . et maior avaritia 
+               negare numulum quam florenum . Quo autem ad cappellum idem tempore solis nota . tantoque
+               maior esse posset te vocans ut ipso etiam portante non feres
+               
+               <label type="marginalia" place="margin_left"><hi rend="underlined_red">similitudines ad parem</hi></label>
+               
+               nisi hoc feceris ex mandato .
+               
+               <hi rend="italic">Si autem par etc .</hi>
+               
+               nunc se convertit ad parem . et dicit 
+               quod decet te in similibus honorem facere pari tuo . quasi videaris te illum pro maiori
+               
+               <label type="marginalia" place="margin_left"><hi rend="underlined_red">salutationes</hi></label>
+               
+               habere non tamen est hoc debitum . nec tantum artat . Super
+              
+              
+                <pb ed="Egidi" n="113" xml:id="Egidi_app_sx_113"/>
+               quo exemplum habemus in papa licet Episcopi sint sub eo scribit illis venerabilibus
+               fratribus . Episcopi episcopis licet sint pares scribunt venerabilibus patribus . et
+               eodem modo cardinales episcopis licet super hiis posset alia ratio assignari . Rex regem
+               cui scribit premictit nisi presit ei vel ex superbia moveatur . ut olim darius cirus 
+               alexander et alij de quibus videas Alexandrum . Superior tamen se subdito, premictit et
+               pater filio sed non amicus amico vel consanguineus consanguineo licet maior . unde legati 
+               de latere in officio episcopis se preponunt quod alias simplices cardinales non faciunt .
+               Magister etiam discipulo magisterio durante postea vero non . Maiori ergo te recommenda . 
+               ex debito pari si vis ex humilitate . Minorem autem saluta. et quod de patre filioque dixi 
+               dic de adscendentibus et descendentibus aliis . et de matre ad filium nisi filiis in 
+               dignitatibus constitutis vellent pater et mater aliud observare . maxime de dignitatibus
+               que liberant a patria potestate non tamen emancippatum quia manumissus sit debes 
+               premictere vel etiam arrogatum vel adoptatum seu alio modo capite diminutum etc.
+               
+               <hi rend="italic">patiaris etc et precedentia</hi>
+               
+               non enim solum dare sed recipere decet ut collator sit ad recipiendum 
+               securior et ex receptione liberior ut de hoc habes infra eadem parte documento 
+               
+               sextodecimo.<note><hi rend="italic">Segue nel ms.</hi>al tuo<hi rend="italic">espunto.</hi></note>
+               
+               <hi rend="italic">Tuo tantum insuper fac minori.</hi>
+               
+               <label type="marginalia" place="margin_left"><hi rend="underlined_red">de minori</hi></label>
+               
+               nunc se ad minorem convertit
+               
+               <hi rend="italic">ut inter gentes eum etc .</hi>
+               
+               O quam multos lictera ista tangit . qui ne dum minores sed 
+               pares in secretis honorant et vilipendunt in publicis postponentes . horum autem hoc iniquum
+               
+               est<note>est<hi rend="italic">nel ms. è ripetuto, ma la prima volta è cancellato</hi></note>
+               
+               vitium . volunt enim tales per illa que non curant ligare . ad ea que per
+               superbiam appetunt . certe non est durabilis ista sotietas . Sunt quidem isti pueris 
+               similes qui amaioribus
+               
+               <label type="marginalia" place="margin_left"><hi rend="underlined_red">de male pat[enter] corrigi</hi></label>
+               
+               suis mallent etiam sine causa potius in occulto verberibus	
+               
+               
+               
+                   <pb ed="Egidi" n="114" xml:id="Egidi_app_sx_114"/>
+               cruciari, quam in publico uno verbo redargui, de hoc sepe magistros huius exorantes . Sed
+               tunc magistri et maiores eorum videntes quas correctiones pueri magis timent illis 
+               utuntur ad eos . quia non suo est arbitrio corrigendus delinquens hocque puer ego 
+               probavi . Si enim pater meus me afficiebat verberibus non curabam . si aliquando faceret 
+               me nudari, hoc
+               
+               <label type="marginalia" place="margin_left"><hi rend="underlined_red">exemplum</hi></label>
+               
+               erat michi cordis divisio .
+               [¶] quod pater ipse meus perpendens hac sola me pena mulctabat
+               [¶] Instabat pro me mater a me rogata ut pater ipse me quantumcumque gravibus verberibus
+               potius laceraret
+               [¶] quam sic publice me nudari preciperet
+               [¶] Respondebat pater non est bonum ut verberetur posset offendi
+               [¶] attamen utrumque probaverat et ex supradicta
+               causa hoc potius pene genere utebatur
+               [¶] quod post lapsum magni temporis michi dixit 
+               [¶] occultabat tamen quare hoc ageret ne forte illum possem contrarium fingendo decipere
+              
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>
