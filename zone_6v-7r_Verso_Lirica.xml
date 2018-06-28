@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
+            type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Documenti d'Amore</title>
+            <respStmt>
+               <resp>Responsabile della codifica</resp>
+               <persName>
+                  <forename>Gaia</forename>
+                  <surname>Tomazzoli</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><p></p></publicationStmt>
+         <sourceDesc><p></p></sourceDesc>
+      </fileDesc>
+   </teiHeader>
+
+   <facsimile>
+      <surface>
+         <graphic url="http://digi.vatlib.it/iiifimage/MSS_Barb.lat.4076/Barb.lat.4076_0020_fa_0006v-7r.jp2/full/full/0/default.jpg"/>
+         <zone points="251,131 398,127 403,265 252,265" xml:id="zone_6v-7r_Verso_Lirica"/>
+      </surface>
+   </facsimile>
+
+   <text>
+      <body>
+         <div type="Lirica">
+            <pb ed="MSS_Barb_lat_4076" facs="#zone_6v-7r_Verso_Lirica" xml:id="pb_6v-7r_Verso_Lirica" />
+            <pb ed="Egidi" n="62" xml:id="Egidi_lirica_62"/>
+            <lg>
+               <l> Echi sua lingua agroppa <note type="collazione"> <hi rend="italic">B</hi>aggroppa</note>,</l>
+               <l> per lo corrente parlar et inciampa </l>
+               <pb ed="Egidi" n="63" xml:id="Egidi_lirica_63"/>
+               <l> epiu colui chavampa, </l>
+               <l> tutti auditori collungo <note type="collazione"> <hi rend="italic">B</hi>con lungho</note> suo prohemo.</l>
+            </lg>
+            <pb ed="Egidi" n="64" xml:id="Egidi_lirica_64"/>
+            <lg>
+               <l> Lo septimo vedemo, </l>
+               <l>difficil <note type="collazione"> <hi rend="italic">B</hi>difficel</note> sovra glialtri asostenere,</l>
+               <pb ed="Egidi" n="65" xml:id="Egidi_lirica_65"/>
+               <l>lo qual potian <note type="collazione"> <hi rend="italic">B</hi>potiam</note> vedere, </l>
+               <l> in quel che move le membra parlando.</l>
+            </lg>
+            <pb ed="Egidi" n="66" xml:id="Egidi_lirica_66"/>
+            <lg>
+               <l>Eben ymaginando,</l>
+               <l> vedian nel meço star ogni vertute,</l>
+               <l>for certe che vedute,</l>
+               <l>avian sol contra certi viçi stare. </l>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>
