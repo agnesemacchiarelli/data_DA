@@ -1,0 +1,43 @@
+<?xml version="1[.]0" encoding="UTF-8"?>
+<?xml-model href="http://www[.]tei-c[.]org/release/xml/tei/custom/schema/relaxng/tei_all[.]rng"
+            type="application/xml" schematypens="http://relaxng[.]org/ns/structure/1[.]0"?>
+<TEI xmlns="http://www[.]tei-c[.]org/ns/1[.]0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Documenti d'Amore</title>
+            <respStmt>
+               <resp>Responsabile della codifica</resp>
+               <persName>
+                  <forename>Carla</forename>
+                  <surname>De Nardin</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><p></p></publicationStmt>
+         <sourceDesc><p></p></sourceDesc>
+      </fileDesc>
+   </teiHeader>
+
+   <facsimile>
+      <surface>
+         <graphic url="http://digi[.]vatlib[.]it/iiifimage/MSS_Barb[.]lat[.]4076/Barb[.]lat[.]4076_0025_fa_0011v-12r[.]jp2/full/full/0/default[.]jpg"/>
+         <zone points="634,118 680,112 691,528 760,526 763,572 647,569" xml:id="zone_11v-12r_Recto_Translatio_sinistra"/>
+      </surface>
+   </facsimile>
+
+   <text>
+      <body>
+         <div type="Translatio_sinistra">
+            <pb ed="MSS_Barb_lat_4076" facs="#zone_11v-12r_Recto_Translatio_sinistra" xml:id="pb_11v-12r_Recto_Translatio_sinistra" />
+            <pb ed="Egidi" n="124" xml:id="Egidi_lir_124"/>
+            <ab> maiores, te, fuerint sive pares [.] [¶] Si autem	minores, et tu simile faceris	alius quam sapiens non videris [¶] Hoc quidem intellige si forensibus mensam pares [¶] Sicque remane cum quod celebres convivium dominabus occurrit[.] [¶] Postmodum cogita quemlibet, in loco qui ei competat col-
+               <pb ed="Egidi" n="125" xml:id="Egidi_lir_125"/>
+               locare [.] [¶] Decet inter coniuntos	ex aliis quandoque, interponere medios [.] [¶] Et in hoc amplius honorans, extraneos, tecum alios reservabis [¶] Tuque illarem servans faciem, operamque, substineas
+               <pb ed="Egidi" n="126" xml:id="Egidi_lir_126"/>
+               unumquemque [.] [¶] Nunc quemlibet alloquor [¶] Serviens	servet, cum inciderit pari-
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>
