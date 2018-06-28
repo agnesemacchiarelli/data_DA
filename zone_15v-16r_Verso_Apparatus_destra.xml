@@ -38,6 +38,7 @@
             <pb ed="MSS_Barb_lat_4076" facs="#zone_15v-16r_Verso_Apparatus_destra"
                xml:id="pb_15v-16r_Verso_Apparatus_destra"/>
             <pb ed="Egidi" n="165" xml:id="Egidi_apparatus_165"/>
+            <!-- questo è per provare un cambiamento -->
             <ab> habet sub pedibus draconem ut notetur quod diversos habet modos interimendi
                sagittat .iiij°. manibus .vj. sagittas ut videas quod ex omni latere varie percutit
                et sagittas non ex faretra sed ex se trahit ut actendas quod non potest illis carere
