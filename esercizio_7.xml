@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="testo_volgare" xml:id="volgare_1">
+            <lg>
+               <l> in capo di ciascono, </l>
+               <l> capitol che qui pono. </l>
+               <l> si che poremo ben comprender quelle </l>
+            </lg>
+         </div>
+
+         <div type="testo_latino" xml:id="latino_1">
+            <ab> adeo ut eas<lb/>dem facile <lb/> comprehen<lb/>dere valea<lb/>mus et plene </ab>
+         </div>
+
+         <div type="commento" xml:id="commento_1">
+            <ab> semper presentem omnipotentem omniscien<lb/>tem . Credimus in divinitate tres
+               personas patrem ingenitum filiam unige<lb/>nitum spiritum sanctum ab utroque
+               procedentem . nullam Diarum esse aliam omnes tamen esse idem . <lb/> omnes esse
+               eiusdem potentie sapiende voluntatis et operationis . multa posse que non <lb/>
+               volunt nulla velle que non possint unamquamque illarum esse personam idest <lb/>
+               rationalis natare, individuam essentiam . omnes esse unum existens et unum deum .
+               <lb/> Credimus unam de hi is per<lb/>sonis scilicet filium carnem de <lb/> virgine
+               sumpsisse ut qui erat <lb/> filios in divinitate esset <lb/> filius in humanitate
+               verum <lb/> deum verum hominem sine com<lb/>mistione et mutatione in <lb/> duabus
+               nataris ex una carne <lb/> et anima rationali sine patre <lb/> carnali existere .
+               eandemque per<lb/>sonam que et prius creatricem <lb/> et creatam facientem et factam
+               <lb/> sicque veram esse quod prius fuit <lb/> in auditam creator est creatu<lb/>ra
+               quia deus est homo . verum est hunc <lb/> hominem celum et terram creasse <lb/> hunc
+               deum mortuum fuisse non <lb/> tamen erat homo quando ista creavit <lb/> sed erat deus
+               quando mortuus <lb/> fuit . Credimus hunc verum <lb/> deum et hominem sub pondo
+               pi<lb/>lato passum crucifixum et mor<lb/>tuum . corpus cum divinitate si<lb/>ne anima
+               in sepulcro iacuisse <lb/> animam cum eadem divinitate <lb/> sine corpore ad inferos
+               descen<lb/>disse . Tertia die coniunta anima <lb/> suo corpori eundem surrexisse .
+               <lb/> Apostolis in multis argumentis ap<lb/>paruisse . Quadragesimo die <lb/>
+               videntibus illis celos adscendisse . <lb/> Quinquagesimo die spiritum sanctum in
+               <lb/> ingneis linguis misisse eundemque <lb/> ad iudi-candos vivos et mortuos
+               ven<lb/>turum esse [segno] De hoc dic plenius <lb/> ut habetur extra de summa
+               tri<lb/>nitate et fide catholica in <lb/> capitulo firmiter credimus et non poteris
+               errare quia decrevit id alma ma<lb/>ter ecclesia . In quibus ubi ratio est nobis
+               incognita fides supplet est enim fides credere <lb/> quod non vides de prima
+               distintione .iiij*. in domo . et est qualitas qua quis credit quod <lb/> diligit .
+               Vnde augustinus fides que per dilettio-nem operatur est fundamentum omnium virtutum .
+               Et <lb/> istam fidem nostram caritas commitatur penes quam consistit omne meritum et
+               est fons <lb/> vivus cui non comunicat alienus de penitenza distintione prima item ut
+               ait christus <lb/> Si enim per rationem que sunt fidei videremus fides nostra meritum
+               non </ab>
+         </div>
+
+         <div type="testo_volgare" xml:id="volgare_2">
+            <lg>
+               <l> Como vedete dormon lassù elle, </l>
+               <l> per esser poi posate, </l>
+               <l> quandelle fien chiamate, </l>
+               <l> ele due poseranno, </l>
+               <l> che mo deritte stanno. </l>
+               <l> et ello e sempre di tutte signore </l>
+            </lg>
+         </div>
+
+         <div type="testo_latino" xml:id="latino_2">
+            <ab> [segno] Hee qui<lb/>dem dormi<lb/>unt, superi<lb/>us ut vide<lb/>tis . quia cum
+               <lb/> vocate fue<lb/>rint sint <lb/> pausate . [segno] Ce<lb/>terum due <lb/> que
+               nunc, <lb/> secum sunt, <lb/> tunc tempo<lb/>ris requiescent . <lb/> [segno] ipse
+               namque illarum sem<lb/>per </ab>
+         </div>
+
+         <div type="commento" xml:id="commento_2">
+            <ab> haberet iuxta <lb/> illud fides non habet meritum cui humana ratio probet
+               experimentum . Sed ante quam ad alia <lb/> transeamus quia de hiis ut melius possumus
+               instrui debemus ut sint ad salvationem <lb/> creduli veniamus de consecratione
+               distintione .iiij*. ante . dicit ibi glosa ad in<lb/>telligentiam personarum in
+               trinitate quod nominum quedam sunt essentialia quedam persona<lb/>lia (1) quedam
+               notionalia essentialia que in singolari numero dicuntur de tribus personis sigillatim
+               . ut deus <lb/> bonus iustus etternus omnipotens et similia in plurali dicuntur
+               incongrue iuxta illud Ana<lb/>stasij non tres dij sed unus est deas . Personalia sunt
+               que supponunt personam tantum et in singula<lb/>ri numero tantum . ut pater filius et
+               spiritus sanctus . Notionalia sunt que notant distintionem in <lb/> personis . ut generans
+               generata et procedens . ista notionalia conveniunt adiective <lb/> quia tantum de personis
+               dicuntur . et non de essentia sed quando tenentur substantive tunc tam <lb/> de essentia
+               quam de personis dicuntur . Vnde hec prepositio est simpliciter vera . pater est
+               generans <lb/> sive hec dictio generans teneatur adiettive sive substantive . Si autem
+               dicatur substantia <lb/> divina est generans si hec dictio generans teneatur adiettive
+               falsa est quia vellet <lb/> notare distinctionem in divina essentia si teneatur substantive
+               vera est quia tunc is <lb/> est sensus substantia divina est generans [segno] idest est
+               persona que generat unde ista nomina, <lb/> generans genita procedens adiuncta nominibus
+               personarum distinctionem notant personarum <lb/> iuncta vero cum nominibus istis substantia
+               natura seu essentia divina tenentur substantive <lb/> ac notant essentiam tantum . Item
+               dicitur ibi, quod distintiva sive partitiva no<lb/>mina ut unus aliquis duo et . similia
+               aliquando significant essentiam </ab>
+         </div>
+
+      </body>
+   </text>
+</TEI>
