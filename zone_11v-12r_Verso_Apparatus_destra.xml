@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
+            type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Documenti d'Amore</title>
+            <respStmt>
+               <resp>Responsabile della codifica</resp>
+               <persName>
+                  <forename>Giulia</forename>
+                  <surname>Barison</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><p></p></publicationStmt>
+         <sourceDesc><p></p></sourceDesc>
+      </fileDesc>
+   </teiHeader>
+
+   <facsimile>
+      <surface>
+         <graphic url="http://digi.vatlib.it/iiifimage/MSS_Barb.lat.4076/Barb.lat.4076_0016_fa_0002v-3r.jp2/full/full/0/default.jpg"/>
+         <zone points="329,73 329,112 441,118 440,376 326,384 337,677 525,679 517,71" xml:id="zone_2v-3r_Verso_Apparatus_destra"/>
+      </surface>
+   </facsimile>
+
+   <text>
+      <body>
+         <div type="Apparatus_destra">
+            <pb facs="#zone_2v-3r_Verso_Apparatus_destra" xml:id="pb_2v-3r_Verso_Apparatus_destra" />
+            <pb ed="Egidi" n="121" xml:id="Egidi_apparatus_121"/>
+            <ab xml:id="app_1_b"> non dominis et ut fiat differentia inter modum servandum cum istis et modum servandum <lb/> cum precedentibus paribus die quod minor erit hec resistentia et timida et humilis fallit <lb/> regula ista in casibus ut bene probant sequentia infra eodem documento ut videlicet quando <lb/> inter multos sotios pares vel dispares unus eligitur cui dicitur ordina mensam <lb/> nam hoc casu resistentia vituperabilis est dicenti . si non impleatur quod dicit . Item in <lb/> domo potes etiam resistere et in domo propinqui dicendo illi frater decet me rema<lb/>nere et quasi consulendo suadere ut <lb/> alios premictat . et nota quod ho<lb/>noratus hoc loco sic in aliis <lb/> honorati ad antidota obliga<lb/>tur presertim ubi paritas in<lb/>tercedit . ut inquid Monachus <lb/> de Montalto in provinciali . <hi rend="underline">tace <lb/> cum minoribus</hi> etc . hanc licteram que <lb/> plana est intellige de valde <lb/> minoribus et non in propria domo tua . <lb/> <hi rend="underline"> incuriales etc </hi> Istam claram non <lb/> protulit amor solummodo propter hoc et <lb/> igitur ante quam procedas ulterius est <lb/> notandum . quod qui multo minorem <lb/> se quasi invitum ad honores <lb/> premictit tantum peccat in mo<lb/>ribus quantum qui ex arrogantia <lb/> se maiores precedit et maxime inter <lb/> illos qui minorem premissum in<lb/>vitum et se excusantem ab ini<lb/>tio non noverunt. cum ex hoc <lb/> indiscretum illum facias reputari <lb/> per quod de singulis summe modum <lb/> et tolle unicum super hoc <label type="marginalia" rend="rosso">exemplum</label> . <lb/> quod Garagrafiulus gribolus recitavit <lb/> duo nobiles quorum alter comitis <lb/> flandrensis alter cuiusdam eius militis fìlij <lb/> erant in secretis eorum intimi sotij . <lb/> Maior. cum ibant simul ad videndam <lb/> quandam dominam quam amabat cum esset <lb/> sub eius palatio via stricta premic<lb/>tebat alonge se minorem predictum . <lb/> extimans potius ex humilitate ac curialitate sue domine placere quam <lb/> pompis Semel do
+            <pb ed="Egidi" n="122" xml:id="Egidi_apparatus_122"/>
+               mina descendens ad <lb/> hostium et alloquens precedentem inquid <lb/> cur filium domini tui precedis tunc <lb/> filius comitis preveniens respontionem <lb/> minoris Respondit Ipse invitus <lb/> precedit non extimans se prevalere <lb/> qui prevalet . Ego eum propter suaruin <lb/> virtutum prerogativam premicto <lb/> cum non sit morum nobilitas na<lb/>tionibus postponenda Tunc domina <lb/> illa que longo tempore huic maiori <lb/> se amanti, ferox extiterat, <lb/> summens sertum de capite proprio, <lb/> longis suis sudoribus irrigatum, <lb/> et ea ratione dulcius expectanti, <lb/> manumque suam candidissimam cum eodem <lb/> extendens, ad illum, inquid ei, <lb/> Tollant curialia mendacia tua . <lb/> et tua probitas non devicta vir<lb/>tute, quod hodie meruerunt At <lb/> iste nobilis genuflexus, mira<lb/>bili affectione ac reverentia, <lb/> nec non et pavore amplexus <lb/> est sertum, dicens . Si debitum sotio con<lb/>ferens, hec mea insufficientia impe<lb/>travit, spero siquid curialitatis <lb/> tentavero, vestre benivolentie gratia <lb/> non frustrabor cumque vellent tunc sermonem prosequi latiorem Refert ipse Garagra<lb/>ffulus gribolus, quedam vetula deputata custodie dicte domine, supervenit . et domina <lb/> inquid illis non est honor vobis me hic sola sedente manere tunc maior dixit <lb/> ergo culpandi sumus, quia ob hoc ne solam vos sineremus stabamus . tunc vetula ver<lb/>tens in eos turbidam faciem, ait illis, ite pro factis vestris qui depresso verecundie <lb/> quasi causa capite recesserunt Hoc facit potissime contra multos qui paciscuntur cum <lb/> sotiis honorabitis nos in loco tali et multos tangit curent virtutibus <lb/> honorari . Quia nos staremus libenter in fabulis redeamus ad licteram
+            <pb ed="Egidi" n="123" xml:id="Egidi_apparatus_123"/>
+               quia ora <lb/> est iam nos de istis surgere . <hi rend="underline"> In domo tua retro etc . </hi> ista lictera pianissima est <lb/> et se ipsam glosat et nota quod hic non instruit amor dominos quos decet ut volunt <lb/> preesse et postesse . pluries enim dixi quod novitiis loquitur in hac parte sed sicut lictera se<lb/>quens dicitur etiam maior minores in domo tua premictens non delinquis . nec credas <lb/> quod loquatur lictera de famulis tuis . Unde bene sequitur ibi hoc quidem intellige etc et ista <lb/> lictera sit glosata . Sequitur <hi rend="underline"> Sicque remane cum quod des etc </hi> Modo loquitur cum <lb/> in domo tua forensibus dominabus das prandium ut premictas illas . sed hoc fallit in
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>
