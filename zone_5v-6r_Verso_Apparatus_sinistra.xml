@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
+            type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Documenti d'Amore</title>
+            <respStmt>
+               <resp>Responsabile della codifica</resp>
+               <persName>
+                  <forename>Stefano</forename>
+                  <surname>Cassini</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><p></p></publicationStmt>
+         <sourceDesc><p></p></sourceDesc>
+      </fileDesc>
+   </teiHeader>
+
+   <facsimile>
+      <surface>
+         <graphic url="http://digi.vatlib.it/iiifimage/MSS_Barb.lat.4076/Barb.lat.4076_0019_fa_0005v-6r.jp2/full/full/0/default.jpg"/>
+         <zone points="89,80 304,78 303,85 308,86 312,127 314,130 448,130 448,137 448,144 254,147 232,147 197,150 198,367 199,546 257,548 307,548 311,551 309,576 334,577 333,610 329,614 309,613 311,650 312,710 104,710 97,690 50,686 49,656 101,654 97,328 97,270 50,273 47,242 95,241 96,130 49,133 47,82" xml:id="zone_5v-6r_Verso_Apparatus_sinistra"/>
+      </surface>
+   </facsimile>
+
+   <text>
+      <body>
+         <div type="Apparatus_sinistra">
+            <pb ed="MSS_Barb_lat_4076" facs="#zone_5v-6r_Verso_Apparatus_sinistra" xml:id="pb_5v-6r_Verso_Apparatus_sinistra" />
+            <pb ed="Egidi" n="50" xml:id="Egidi_app_sx_50"/>
+            <ab>
+               <label type="marginalia"><hi rend="underline">aliud exemplum</hi></label>
+               agat habet . et si quiescit agit ut melius agat. Memorare quod <persName>Scipio affricanus</persName> semel interrogatus quid ageret cum solus esset. Respondit nunquam minus solus sum quam cum solus sum nec minus otiosus quam cum otiosus sum . quoniam eum acetu hominum separatum, honestarum cogita
+               <label type="marginalia"><hi rend="underline">de inopia</hi></label>
+               tionum cetus commitabatur. <hi rend="italics">Trovarsi bisognoso etc</hi> vult dicere tantum de necessitate igitur testus latinus super hoc testu vulgari dicit tantum <hi rend="italics">necessitas</hi> hanc <persName>cassiodorus</persName> matrem criminum appellavit de qua phylosophus <persName>scirac</persName> in ecclesiastico .xxvij. capitulo, propter inopiam multi deliquerunt et qui querit locupletrari advertit oculum suum . super hac te docet .iij<hi rend="subscribed">a</hi>. gobula ubi dicit quod niti debemus ad acquirendum donec ad sufficientiam habeamus . unde hanc particulam et sequentem satis optime tibi glosat <persName>salomon</persName> in parabolis .xxx<hi rend="subscribed">o</hi>. capitulo . dicens mendicitatem et divitias ne dederis michi tribue tantum victui modo necessaria . ne forte saturatus illiciar ad negandum et dicam quis est dominus aut egestate compulsus furer et periurem nomen dei mei . et idem proverbiorum .xxiij. capitulo . Noli laborare ut diteris sed prudentie tue pone modum . Ne erigas oculos tuos ad opes quas habere non potes quia facient sibi pennas quasi aquile et volabunt in celum <note><hi rend="italics">Il brano cha segue fino a</hi> nunc glosata <hi rend="italics">etc. è aggiunto nel margine interno sopra il testo italiano con un richiamo.</hi></note> et dicit <persName>Abbas ysahac</persName> in opere suo qui potest iniustitiam substinere cum gaudio habens utique pre manibus quo resistere possit quod facit ad licteram et di-
+            <pb ed="Egidi" n="51" xml:id="Egidi_app_sx_51"/>
+               cas quod nunc glosata est etiam particula testus <hi rend="italics">Alte divitie</hi> sequitur de <hi rend="italics">gula</hi> et hic expone gulam comprehendentem cra
+               <label type="marginalia"><hi rend="underline">de gula et ebrietate</hi></label>
+               pulam et hebrietatem aquibus decretalis precipit clericos abstinere. et ista duo vituperabilia sunt valde . tam deo quam mundo. Consummere sua cessare avirtutibus se dare vitiis et vivere propter commedere vel bibere. Ecce quidem pulcra delectatio . Ecce res que faciet inter principes nos sedere . et excellere super reges et regna . ecce res que faciet nos in subtilitates theologicas speculari . et que nostrum statum augebit. Oquanta dementia in hoc hominum est . nec sunt casus incongniti et pericula infinita que ob hec duo vitia provenerunt. Nec ab re sapiens inquid ve tibi terra cui rex puer est et cuius principes male commędunt . ut ecclesiasten .x<hi rend="subscribed">o</hi>. capitulo . de istis loquitur phylosophus in .iiij<hi rend="subscribed">o</hi>. ethycorum dicens Incontinentes enim et in intemperantiam <note><hi rend="italics">Il ms.</hi> inteperantiam</note> consumptores prodigos vocamus . propter quod et pravissimi videntur esse multas enim simul malitias habent . ex ista inordinata repletione pauca mala sunt que non oriantur. Et dicit <persName>gregorius</persName> quod .v. modis nos vitium gule temptat . aliquando indigentie tempora prevenit . et cibos latiores querit que summenda sunt expetit acuratius aliquando summendi modum excedit etc. <persName>Seneca</persName> maior pars hominum voluntate <note><hi rend="italics">Dopo</hi> voluntate <hi rend="italics">nel ms. segue</hi> querit <hi rend="italics">espunto.</hi></note> perit. Et <persName>ysidorus</persName> tota die epulas ruminat que ad explen-
+            <pb ed="Egidi" n="52" xml:id="Egidi_app_sx_52"/>
+               dum ventrem vespere delitias parat. Item <persName>gregorius</persName> in moralibus pene semper epulas commitatur voluptas. Audi igitur monita tantorum et aperi aures tuas ipsorum saltem intuitu . si non dampni vitandi gratia et orroris. Et secundum <persName>Senecam</persName> palatum tuum fames excitet non sapores . quoniam qui corpus suum sollicite nutrit hostem suum nutrit . unde idem in epistola .xlviij<hi rend="subscribed">o</hi>. dicit ad maiora natus sum quam ut sim mancipium corporis mei. Sunt enim secundum <persName>Augustinum</persName> alimenta tanquam medicamenta summenda . sola insuper ebrietas quot cecidisse <note><hi rend="italics">Il</hi> ci <hi rend="italics">è aggiunto sopra nell'interlineo.</hi></note> refert, contumeliosa quidem res est ut dicit canon . et tumultuosa et luxuriosa vinum . et si vinum non fuisset servitus non fuisset et omnis qui cum hiis miscetur non erit sapiens. <persName>Noe</persName> quidem ut dicit <persName>ambrosius</persName> in canone vineam plantavit dedit naturam sed ingnoravit potentiam . hos canones et multa contra crapulam habes .xxxv<hi rend="subscribed">a</hi>. distintione per totum <note><hi rend="italics">Il brano seguente fino a</hi> <persName>Galienus</persName> <hi rend="italics">etc. è aggiunto in margine.</hi></note> . et de consecratione distintione .v<hi rend="subscribed">a</hi>. in multis capitulis . <persName>Galienus</persName> etiam dicit quod ebrius est servus omnium peccatorum quia ex quo diabolus cepit portam claustri de facili totam familiam suam introducit. Et <persName>Gregorius</persName> ebrietas est blandus demon . dulce venenum suave peccatum . quam qui habet non se ha-
+            <pb ed="Egidi" n="53" xml:id="Egidi_app_sx_53"/>
+               bet . quam qui facit non facit peccatum quia totus est peccatum. Et <persName>tullius</persName> recta mente uti non posset multo vino et cibo repleti. et <persName>osee</persName> .vij<hi rend="subscribed">o</hi>. capitulo ceperunt principes furere avino. Excita itaque mentem tuam et admicte monita <persName>senece</persName> dicentis voluptates inter res vilissimas precipue extirpa que more latronum in hoc nos amplectuntur ut strangulent . et idem nil aliud est ebrietas quam voluntaria insania. O quam verecundum est audire hominem qui dedignatur iugo subici alieno et qui audet toti mundo universaliter damnari, se a re insensibili deprimi atque vili permictere . plorent itaque moralitatis collationes et mentis delectationes que sic viliter saporibus corporalium postponuntur . <hi rend="italics">malarum</hi>
+               <label type="marginalia"><hi rend="underline">de malis mulieribus</hi></label>   
+               <hi rend="italics">de mulierum aspectus</hi>. Nota de malis mulieribus loquitur <note><hi rend="italics">C'è un richiamo al margine inferiore, dove è aggiunta una riga illeggibile.</hi></note> ...................... Et dic omnia que contra mulieres adducuntur dicunt de malis ut in ecclesiastico et in ecclesiasten et in proverbiis et in libro sapientie singulisque locis similibus et de talibus intellexit phylosophus [<persName>scirac</persName>] in ecclesiastico .xviiij. Capitulo. vinum et mulieres apostatas faciunt sapientes et de istis loquitur <persName>Ieronimus</persName> </ab>
+         </div>
+      </body>
+   </text>
+</TEI>
