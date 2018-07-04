@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Documenti D'amore</title>
+            <title type="sub">Edizione Digitale</title>
+            <respStmt>
+               <resp>Supervisione testuale di:</resp>
+               <name>Antonio Montefusco</name>            
+            </respStmt>
+            <respStmt>
+               <resp>Supervisione codicologia</resp>
+               <name>Sara Bischetti</name>
+            </respStmt>
+            <respStmt>
+               <resp>Codifica di:</resp>
+               <name>Tiziana Mancinelli</name>
+               <name>Studenti e dottorandi</name>          
+            </respStmt>
+            <respStmt>
+               <resp>Revisione alla codifica di:</resp>
+               <name>Tiziana Mancinelli</name>
+               <name>Franz Fisher</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Università di Venezia</publisher>
+            <pubPlace>Venezia</pubPlace>
+            <date>Da definire</date>
+            <availability>
+               <p>Il progetto è realizzato per la libera consultazione. Tutti i contenuti sono
+                  riproducibili a patto che se ne indichi la fonte.</p>
+            </availability>
+         </publicationStmt>
+
+         <sourceDesc>
+            <msDesc>
+
+               <!-- Informazioni sulla collocazione fisica del Codice -->
+              
+               <msIdentifier>
+                  <country>Italia</country>
+                  <settlement>Città del Vaticano</settlement>
+                  <institution>Biblioteca Apostolica Vaticana</institution>
+                  <repository>Biblioteca Vaticana</repository>
+                  <collection>Barberino Latino</collection>
+                  <idno>4076</idno>
+               </msIdentifier>
+
+               <!-- Informazioni su autore e lingua -->
+               <msContents>
+                  <msItem>
+                     <textLang mainLang="latin">Latino</textLang>
+                     <textLang mainLang="italian">Italiano</textLang>
+                     <colophon>
+                        Francesco da Barberino, Documenti d’Amore (cc. 1r-101v), in italiano e in latino. - Desccrizione ulteriore del manoscritto.
+                     </colophon>
+                   </msItem>
+               </msContents>
+
+               <!-- Descrizione materiale manoscritto-->
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <p>Il volume è rilegato in <material>pergamena</material>
+                           <width>360</width>
+                           <height>255</height>
+                        </p>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <p>Da definire le tipologie di scrittura</p>
+                     <p>
+                        <list>
+                           <item>testo in volgare: semigotica, calligrafica, slanciata e ben spaziata;</item>
+                           <item>traduzione latina: semigotica con maggiore aderenza ai canoni della littera textualis;</item>
+                           <item>- glosse: corsiva minuta e sottile, più disordinata e irregolare</item>
+                        </list>
+                    </p>
+                  </handDesc>
+                  <decoDesc>
+                     <p>Commenti sulla descrizione fisica</p>
+                  </decoDesc>
+               </physDesc>
+               <!-- Informazioni storiche sul codice -->
+               <history>
+                  <summary>
+                     <p>nel margine superiore del verso di c. 102r aggiunta di contenuto coeva vergata in una semigotica con evidenti influssi cancellereschi; al centro della prima carta di guardia membranacea anteriore si legge una nota manoscritta relativa ad una precedente segnatura del manoscritto: numero antico 1525; immediatamente sotto l’anno in cui è avvenuto il restauro: racconciato nel <date>1827</date>.
+                     </p>
+                  </summary>
+                  <origin>
+                     <p></p>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+
+   <facsimile>
+      <graphic height="1793px" url="images\single\214v.jpg" width="1200px"/>
+   </facsimile>
+
+   <text>
+      <body>
+      <!-- ogni foglio deve essere caratterizzato da  -->
+      <pb n="001r" xml:id="fol_001r"/>
+         <div type="iconografia" xml:id="ic_fol_001r_0001"> 
+             <div type="didascalia" xml:id="did_fol_001_r_001"> 
+               <ab>Amantes servi vocati qui convenire ponierunt</ab>
+            </div>    
+         </div>     
+         <div type="rubrica" xml:id="rub_fol_001r_0001"> 
+            <ab rend="red">incipit liber documentorum amoris per franciscum de barberino utriusque iuris scolarem ab eius dem amoris ore proferentis per eloquetiam collectorum . prohemium . vulgare . </ab>
+         </div>
+             
+           <div type="testo_volgare" xml:id="volgare_1">     
+               <lg>
+                    <l><seg type="iniziale">[S]</seg>omma vertu dei nostro sir amore </l>
+                    <l>lo mio intellecto novamente accese </l>
+                    <l>che di ciascun paese</l>	 
+                    <l>chiamasse iservi<note><hi rend="italic">Cod B</hi> yservi</note> effecto conduxi</l>
+                    <l>poi tra lor mi reduxi</l> 
+                    <l>da quella parte chay suoi minor toccha</l>
+               </lg>        
+            </div>
+            <div type="rubrica" xml:id="rub0002"> 
+                  <ab rend="red">prohemium . latinum.</ab>
+                  <ab>incipit apparatus per eunden franciscum compositus super documentis amoris ex causis inferius introductis.</ab>
+            </div>
+            <div type="translatio" xml:id="traslatio_1" corresp="volgare_1">
+                
+               <ab xml:id="traslatio_1_a"><seg type="iniziale">[S]</seg>umma nostri virtus superioris amoris meum nuper accendidit. intellectum ut servos eius ad suam maiorem </ab>
+               <ab xml:id="traslatio_1_b">archem de quacunque patria evocarem Ego siquidem qui ab illo vitam teneo et honorem, id, fideliter ad effectum perduxi. [segno] Demum me in partem que suis competit retraxi minoribus inter eos [.] </ab>
+             </div>
+        
+             <div type="apparatus_1" xml:id="app_0001">
+                <ab xml:id="apparatus_1_a"><seg type="inziale">[L]</seg>egitur in canone quod ex merito deteriores sunt, qui vitam moresque bonorum corrumpunt, hiis qui substantias aliorum prediaque diripiunt . verba sunt Gregorij et ponuntur sexta questione prima ex merito . [segno] Darius olim Rex persarum, unus ex prodecessoribus darij, quem Alexander olim phylippi macedonie devicit, iliumque cum Regno, post bella varia dominio subiugavit, quondam inter ceteros tres habebat interpretres [.] qui super constitutionibus antiquis, et aliorum scriptis, et gestibus variis expositionibus interpretrationibus et relationibus utebantur [segno] Primus nomine Amandels, singula que iam dicta videbat, etiam si aliquo modo possent redargui, dum tamen ad bonum etiam trahi possent, salvaro totis suis conatibus nitebatur [.] [segno] Secundus nomine folchindus ad contrarium tendens,</ab>
+                   <ab xml:id="apparatus_1_b">dampnare quodlibet etiam si poterat salvum fieri, studebat [.] [segno]  Tertius nomine Salernes invidens ad primum et hodiens secundum, nullo alio studio vig[i]labat, in rebus, nisi ut se opponeret oppinionibus utriusque [segno] Fuerunt duo Arach scilicet et Ioret, ad constitutionem quandam condendam adhibiti ab hoc Rege [segno] quam conditam iste secundus [bonis in]videns contra [Regis commodum resultare dicebat [segno] Primus hanc salvabat optimis argumentis [segno] Tertius eam dampna[bat sed per a]lia argumenta quam secundus [inducerat] ipsius secundi [dicta reiciens] [segno]  Fuit ab quesitum [consilium] [segno] Fuit et  salvantis, [segno] [Con]stituit Rex secundum et tertium, ut servos primi [segno] Et ipsis secundo et tertio super solitis silentium imperavit [.] [segno] Et primi directione postea tota curia refulgebat. [segno] Et auxit ei tunc Rex nomen Amandels capud regis [segno] hec omnia cum hiis que secuntur infra in parte prima documento [.]xxiiij[.] gobula Evoche sia et [.][segno][.] haberi te volo, possunt meo proposito rationabiliter adaptari non quia dicam me bonum, sed quoniam si quando quicquam utilitatis vel boni ad meam saltem instructionem, pura intentione in scripta deducere, michi gratia superna ministrat, ac in illis pono diurnos pariter et nocturnos labores, qui hec dampnant, et si non mei delinquant, respectu, consideratione peccant, rei taliter </ab>
+               </div>
+            <div>   
+         </div>
+     </body>
+   </text>
+</TEI>

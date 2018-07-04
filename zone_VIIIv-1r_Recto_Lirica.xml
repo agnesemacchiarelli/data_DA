@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
+            type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Documenti d'Amore</title>
+            <respStmt>
+               <resp>Responsabile della codifica</resp>
+               <persName>
+                  <forename>Sara</forename>
+                  <surname>Bischetti</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><p></p></publicationStmt>
+         <sourceDesc><p></p></sourceDesc>
+      </fileDesc>
+   </teiHeader>
+
+   <facsimile>
+      <surface>
+         <graphic url="http://digi.vatlib.it/iiifimage/MSS_Barb.lat.4076/Barb.lat.4076_0014_fr_0008v-1r.jp2/full/full/0/default.jpg"/>
+         <zone points="702,485 834,485 835,558 703,562 699,528 629,524 628,445 704,439" xml:id="zone_VIIIv-1r_Recto_Lirica"/>
+      </surface>
+   </facsimile>
+
+   <text>
+      <body>
+      <div type="Translatio_sinistra">
+         <pb ed="MSS_Barb_lat_4076" facs="#zone_15v-16r_Verso_Translatio_sinistra"
+            xml:id="pb_15v-16r_Verso_Translatio_sinistra"/>
+         <pb ed="Egidi" n="164" xml:id="Egidi_translatio_164"/>
+         <ab type="rubrica" rend="red">XIIJ</ab>
+         <ab>
+            <seg type="iniziale">V</seg>olo dicere tibi partem, extraordinariorum documentorum
+            quorundam, quorum nequaquam, te si ea servare volueris penitebit . ¶ Si cum <pb
+               ed="Egidi" n="165" xml:id="Egidi_translatio_165"/> hiis qui fuerint domestici
+            valde tui, opporteat te manere, non minus cum talibus, laudandis moribus, nobilique
+            regimine . assuescas <note><hi rend="italic">Dopo</hi> assuescas <hi rend="italic"
+               >segue nel ms.</hi> a <hi rend="italic">espunta</hi></note>. ¶ Nam intentus
+            postmodum, propter usum, nova quadam acquisita natura, rem nobilem extra, cum aliis,
+            atque puram, efficies . et erit stabilis status tuus ¶ Nec solum <pb ed="Egidi"
+               n="166" xml:id="Egidi_translatio_166"/> debes, quod sis salutatus ab aliis
+            expectare ¶ Sed corde leto, extra gentem quamlibet
+         </ab>
+      </div>
+   </body>
+</text>
+</TEI>
