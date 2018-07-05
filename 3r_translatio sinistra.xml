@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
+            type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Documenti d'Amore</title>
+            <respStmt>
+               <resp>Responsabile della codifica</resp>
+               <persName>
+                  <forename>Silvia</forename>
+                  <surname>Marsili</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p/>
+         </publicationStmt>
+         <sourceDesc>
+            <p/>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+
+   <facsimile>
+      <surface>
+         <graphic
+            url="http://digi.vatlib.it/iiifimage/MSS_Barb.lat.4076/Barb.lat.4076_0016_fa_0002v-3r.jp2/full/full/0/default.jpg"/>
+         <zone points="618,129 670,126 674,326 739,329 742,363 619,367"
+            xml:id="zone_2v-3r_Recto_Translatio_sinistra"/>
+      </surface>
+   </facsimile>
+
+   <text>
+      <body>
+         <div type="Translatio_sinistra">
+            <pb ed="MSS_Barb_lat_4076" facs="#zone_2v-3r_Recto_Translatio_sinistra"
+               xml:id="pb_2v-3r_Recto_Translatio_sinistra"/>
+            <pb ed="Egidi" n="20" xml:id="Egidi_Translatio_sinistra_20"/>
+            <ab> illos, qui de suo habent thesauro sotiandos <seg type="segno">[Segno]</seg>
+                  Veluti<pb ed="Egidi" n="21" xml:id="Egidi_Translatio_sinistra_21"/> probitatem,
+               audaciam, humilitatem, aliasve multas, que descendunt ab ipso <seg type="segno"
+                  >[Segno]</seg> Et harum perpetuo, <pb ed="Egidi" n="22"
+                  xml:id="Egidi_Translatio_sinistra_22"/> quelibet est cum eo <seg type="segno"
+                  >[Segno]</seg> Nec hos eas solos facit fectus, diversis respectibus
+                  <!-- nel ms e nel testo Egidi "diversis respectibus operari conducere", nel testo fornito "diversis respectibus conducere" -->
+                  conducere ac <pb ed="Egidi" n="23" xml:id="Egidi_Translatio_sinistra_23"/> vitare, sed quid
+               <!-- questo è il mio primo commit -->
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

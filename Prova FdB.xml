@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
+            type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Documenti d'Amore</title>
+            <respStmt>
+               <resp>Responsabile della codifica</resp>
+               <persName>
+                  <forename>Sara</forename>
+                  <surname>Bischetti</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><p></p></publicationStmt>
+         <sourceDesc><p></p></sourceDesc>
+      </fileDesc>
+   </teiHeader>
+
+   <facsimile>
+      <surface>
+         <graphic url="http://digi.vatlib.it/iiifimage/MSS_Barb.lat.4076/Barb.lat.4076_0029_fa_0015v-16r.jp2/full/full/0/default.jpg"/>
+         <zone xml:id="zone_15v-16r_Recto_Lirica" points="691,130 831,128 836,215 690,216"/>
+      </surface>
+   </facsimile>
+
+   <text>
+      <body>
+         <div type="Lirica">
+            <pb xml:id="pb_15v-16r_Recto_Lirica" facs="#zone_15v-16r_Recto_Lirica" ed="MSS_Barb_lat_4076"/>
+               <pb ed="Egidi" n="168" xml:id="Egidi_lir_0168"/>
+            <lg>
+               <l>Esalutar seguire</l> 
+               <l>potrai ciascun daltre parti venendo</l> 
+               <l>ne abbracciar stringendo</l> 
+               <l>se non se ben una cosa con quello</l>
+               <pb ed="Egidi" n="169" xml:id="Egidi_lir_0169"/>
+               <l>Et assai men quandello</l>
+               <l>occorre chale donne fai careça</l>
+               <l>econ piacevoleça</l>
+               <l>guarda di salutar prima piu degni</l>
+               <l>Ne vo chalcuno isdegni</l>
+               <l>e per cammin sel maggior troverrai</l>
+               <l>dalungi inchinerai</l>
+               <l>e sel saluta tu rispondi poi</l>
+               <pb ed="Egidi" n="170" xml:id="Egidi_lir_0170"/>
+               <l>Se no, non dir da poi</l>
+               <l>non vaglia la salute chegliaviene</l>
+               <l>talor pensier chel tiene</l>
+               <l>basti che tu ai tuo debito facto</l>
+               <l>Inchinerai sençatto</l>
+               <l>di gran parlar le donne camminando</l>
+               <l>ma nele terre stando</l>
+               <l>prima lusança imprendi e quella serva</l>
+               <pb ed="Egidi" n="171" xml:id="Egidi_lir_0171"/>
+               <l>Dela parente observa</l>
+               <l>che sela trovi nella terra tua</l>
+               <l>et e pur sola odua</l>
+               <l>sedella ebella fa come distrana</l>
+               <l>Equesta intendie piana</l>
+               <l>se non savesse la gente dattorno</l>
+               <l>chi vostri antichi forno</l>
+               <l>allor poresti piu mal poco laudo</l>
+               <pb ed="Egidi" n="172" xml:id="Egidi_lir_0172"/>
+               <l>Questo laudar non audo</l>
+               <l>poi che sian gionti et allogati abere</l>
+               <l>gran contesa tenere</l>
+               <l>to prima tu or tu et ançi quegli</l>
+            </lg>
+            
+         </div>
+         
+         <div type="Translatio_sinistra">
+            <pb xml:id="pb_15v-16r_Recto_Translatio_sinistra" facs="#zone_15v-16r_Recto_Translatio_sinistra" ed="MSS_Barb_lat_4076"/>
+            <pb ed="Egidi" n="168" xml:id="Egidi_tra_168"/>
+            <ab> tui, frequentibus salutationibus abstinebis. ¶ Sed dum cum illo conveneris, pulcrum aliquod summe dictum, inducere.
+                  ¶ Sane ab extraneis veniens, partibus, poteris quoslibet salutare. ¶ Preterea ne stringas <note><hi rend="italic">Il ms.</hi>
+                     stingas</note> aliquem in amplexu. nisi bene unum fueris <pb ed="Egidi" n="169" xml:id="Egidi_tra_169"/> cum eodem. ¶ Minus
+               etiam cum occurrit, ut conferas honorificentiam dominabus. ¶ Et placentifacie salutare, te primo convenit digniores. ¶  Nec te volo
+               aliquem dedignari. ¶  Si vero per camminum, inveneris te maiorem, capud, alonge, inclinabis ad illum. ¶ Qui si salutaverit respon 
+               <pb ed="Egidi" n="170" xml:id="Egidi_tra_170"/>debis. ¶ Alioquin postea, quod salutum non valeat, nulli dicas. 
+            </ab>
+            </div>
+         
+         <div type="Apparatus_sinistro">
+            <pb xml:id="pb_15v-16r_Recto_Apparatus_sinistro" facs="#zone_15v-16r_Recto_Apparatus_sinistro" ed="MSS_Barb_lat_4076"/>
+            <pb ed="Egidi" n=""/>
+          
+         </div>
+              
+                  <div type="Lirica">
+                     <pb xml:id="pb_23v-24r_Verso_Lirica" facs="#zone_23v-24r_Verso_Lirica" ed="MSS_Barb_lat_4076"/>
+                     <pb ed="Egidi" n="253" xml:id="Egidi_lir_253"/>
+                     <ab type="rubrica" rend="red">DOCUMENTUM XXIJ SUB DOCILITATE</ab>
+                        <lg>
+                           <l><seg type="iniziale">P</seg>orian gia forse dire</l>
+                           <l>giovani alquanti, tu non ciai mostrato</l>
+                           <l>lo modo che laudato</l>
+                           <l>achi convien servir alchun signore <note><hi rend="italic">B</hi>alcun singnore</note></l>
+                           
+                           
+                       
+                     </lg>
+                  </div>
+      </body>
+   </text>
+</TEI>

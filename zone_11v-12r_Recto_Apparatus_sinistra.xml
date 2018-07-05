@@ -1,0 +1,52 @@
+<?xml version="1[.]0" encoding="UTF-8"?>
+<?xml-model href="http://www[.]tei-c[.]org/release/xml/tei/custom/schema/relaxng/tei_all[.]rng"
+            type="application/xml" schematypens="http://relaxng[.]org/ns/structure/1[.]0"?>
+<TEI xmlns="http://www[.]tei-c[.]org/ns/1[.]0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Documenti d'Amore</title>
+            <respStmt>
+               <resp>Responsabile della codifica</resp>
+               <persName>
+                  <forename>Carla</forename>
+                  <surname>De Nardin</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><p></p></publicationStmt>
+         <sourceDesc><p></p></sourceDesc>
+      </fileDesc>
+   </teiHeader>
+
+   <facsimile>
+      <surface>
+         <graphic url="http://digi[.]vatlib[.]it/iiifimage/MSS_Barb[.]lat[.]4076/Barb[.]lat[.]4076_0025_fa_0011v-12r[.]jp2/full/full/0/default[.]jpg"/>
+         <zone points="542,64 742,55 748,107 639,113 650,567 761,565 761,682 566,688" xml:id="zone_11v-12r_Recto_Apparatus_sinistra"/>
+      </surface>
+   </facsimile>
+
+   <text>
+      <body>
+         <div type="Apparatus_sinistra">
+            <pb ed="MSS_Barb_lat_4076" facs="#zone_11v-12r_Recto_Apparatus_sinistra" xml:id="pb_11v-12r_Recto_Apparatus_sinistra" />
+            
+            <pb ed="Egidi" n="123" xml:id="Egidi_lir_123"/>
+            <ab>
+               casibus cum dares insimul prandium coniunctis dominabus et coniuntis viris quia tunc posses si velles inter virum et virum ponere dominam Item cum convocatis ad convivium <note><hi rend="italics">Il ms. ha veramente</hi> conuiuum</note> dominabus extraneis ad honorandos aliquos nobiles supervenientes verumtamen lictera loquitur cum solis dominabus das prandium quia et semper tutius est illas ponere separatim a vivis<!-- nel ms. viris --> [.] <hi rend="italics"><hi rend="underlined">Postmodum cogi</hi>ta etc </hi> Modo convertit se amor ad te novitium instruendum <note><hi rend="italics">Segue una</hi> q <hi> cancellata</hi></note> qui <!-- nel ms. per --> quos gradus in mensa quoslibet habeas ordinare [.] In quo quedam nota primum quod amor intelligit cum in domo tua das prandium non cum tibi datur [.] Verumtamen si tibi et aliis in domo cuiusdam tui domestici daretur et tibi competeret locus primus vel secundus vel sic bene posses dicere ego volo mensam hanc ordinare [.] quo <note><hi rend="italics">Nel ms.</hi> quos <hi> con l's finale espunta</hi></note> casu omnes tibi preponere te decet [.] Secundum nota quod ubicumque potes istud vitare officium non assummas cum sit inter invidos hodiosum adeo ut etiam in domo tua quosdam postponendo illis magis displiceas quam de prandio placeas [.] <label type="marginalia"><hi rend="underline">de non curandis primisgradibus</hi></label> in quo multum siqui sunt invidi sunt culpandi [.] cum non <note><hi rend="italics">Dopo</hi> non <hi> segue </hi>et<hi> cancellato</hi></note> locus santificet homi- 
+             <pb ed="Egidi" n="124" xml:id="Egidi_lir_124"/>
+               nem sed homo locum nec cathedra faciat sacerdotem sed sacerdos cathedram [.] quadragesima distinctione multi[.] nec qui maior fuerit in honore ille est iustior sed qui fuerit iustior ille est maior ut ibi dicitur nec loca vel ordines creatori nostro nos proximos faciunt sed nos aut merita bona coniungunt aut mala disiungunt ut eadem distinctione non loca [.] et is gradus elegantior ceteros antecellit quam vite melioris actio et stipendia meliora fecerint anteire codice de officio magistri officiorum lege nemo [.] Tertium nota quod quamvis novitius, posses tamen esse in tanto officio dignitate vel successione quod ate hoc esset sescalco tue curie officium vel camerario commictendum in quibus omnibus bono <note>bono<hi rend="italics"> nel ms. è aggiunto sopra nell'interlineo</hi></note> mori patrie te conforma [.] <label type="marginalia"><hi rend="underline">inter coniuntos etc</hi></label> <hi rend="italics">decet inter coniunctos</hi> sed que est ratio istius interpositionis quam debere fieri dicit amor cum coniuncti se invicem magis diligere debeant dic quod inter alios est opus dilectionem augeri inter coniunctos siquidem non [.] quoniam adiectione non indiget plenitudo [.] nonagesima sexta distintione bene quidem et in vacuis laborat inpendiis qui solem certat faucibus adiuvare Sexta questione prima si omnia [.] Item alia est ratio ne videaris solos velle honorare tuos cum quibus securius agis ut videtur etiam innuere lictera sequens dicens extraneos premictendos unde prima lictera loquitur de invicem coniunctis hec de coniunctis tibi [.] loquitur etiam de non multum gradu distantibus quod per precedentia satis patet [.] Unum hic
+             <pb ed="Egidi" n="125" xml:id="Egidi_lir_125"/>
+               non est aliquatenus obmictendum [.]<label type="marginalia"><hi rend="underline">de locis</hi></label> ut semper caveas ne in mensa forsitan inimicum copules inimico vel se invicem non amantes et cavendum est omnibus tales ad convivium <note><hi rend="italics"> Il ms. ha veramente anche qui</hi> conuiuum</note> simul conducere nisi forsan pacis tempore <!-- nel ms. tempori --> que fieret inter eos Item ne amantem virum copules amate nisi sint inter quos liceat [.] Item ne coniungas porcum cum hermellino cum quieto verbosum cum mansueto perversum quia meliores gravas nec servis peioribus in hoc casu [.] cum porcus delectetur in ceno et sic de similibus [.] cavendum est enim tibi ne quibus corporis das delitias mentis tristitias conferas [.] Ad licteram predictam que dicit nec copules amantem amate opposuit garagraffulus gri bolus dicens quod mala erat glosa nec poterat hoc esse amoris consilium [.]<label type="marginalia"><hi rend="underline">oppositio</hi></label> Allegans quod <note>quod <hi rend="italics">nel ms.è aggiunto nel margine</hi></note> dominus Guillelmus de bergadam amantes invicem viros et dominas collocabat in mensa et correis et cum hoc non poterat alterum ab opposito alteri <note><hi rend="italics"> Dopo</hi> alteri <hi> segue nel ms.</hi> ori <hi>cancellato</hi></note> statuebat [.] Respondi ei quod non allegasset ita michi dicta sanctorum et maxime augustini vitantis non solum extranearum familiaritatem <note><hi rend="italics"> Il ms.</hi> familiatem</note> dominarum ut [.]xxx<hi rend="subscribed">a</hi>ij distinctione ad plenum habes verum <note><hi rend="italics">Dopo</hi> verum <hi>segue nel ms.</hi> habet <hi>cancellato</hi></note> etiam domesticarum ut [.]xxx<hi rend="subscribed">a</hi>iiij<hi rend="subscribed">a</hi> distinctione quasi per totam de quibus superius habuisti notatum documento primo pro et contra [.] et habebis infra in regula infrascripta preterea iste amor est spiritualis ut sepius est notatum quo loquente non staret ipsius obiectio nisi forsitan de se bono affectu amantibus loqueremur quod etiam est <note>est <hi rend="italics"> è ripetuto nel ms., ma la seconda volta è cancellato ed espunto</hi></note> vitandum ne fiat 
+            <pb ed="Egidi" n="126" xml:id="Egidi_lir_126"/>
+               contra regulam que est infra in parte secunda documento .v.<hi rend="subscribed">a</hi> regula
+               
+               
+               
+               
+               
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,91 @@
+<?xml version="1[.]0" encoding="UTF-8"?>
+<?xml-model href="http://www[.]tei-c[.]org/release/xml/tei/custom/schema/relaxng/tei_all[.]rng"
+            type="application/xml" schematypens="http://relaxng[.]org/ns/structure/1[.]0"?>
+<TEI xmlns="http://www[.]tei-c[.]org/ns/1[.]0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Documenti d'Amore</title>
+            <respStmt>
+               <resp>Responsabile della codifica</resp>
+               <persName>
+                  <forename>Carla</forename>
+                  <surname>De Nardin</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><p></p></publicationStmt>
+         <sourceDesc><p></p></sourceDesc>
+      </fileDesc>
+   </teiHeader>
+
+   <facsimile>
+      <surface>
+         <graphic url="http://digi[.]vatlib[.]it/iiifimage/MSS_Barb[.]lat[.]4076/Barb[.]lat[.]4076_0025_fa_0011v-12r[.]jp2/full/full/0/default[.]jpg"/>
+         <zone points="680,112 831,108 841,527 694,531" xml:id="zone_11v-12r_Recto_Lirica"/>
+      </surface>
+   </facsimile>
+
+   <text>
+      <body>
+         <div type="Lirica">
+            <pb ed="MSS_Barb_lat_4076" facs="#zone_11v-12r_Recto_Lirica" xml:id="pb_11v-12r_Recto_Lirica" />
+            <pb ed="Egidi" n="124" xml:id="Egidi_lir_124"/>
+            
+           
+            <lg>
+               <l>Questo intendi se dai</l> 
+               <l>mangiar agente di fuor di tuo stello</l> 
+               <l>ancor rimani quandello</l> <l>adonne che tu dia mangiar occorre</l> 
+            </lg>
+            <lg>
+               <l>Poi ti pensa di porre</l> 
+               <l>ciascun nel grado challui si pertiene</l>
+               <pb ed="Egidi" n="125" xml:id="Egidi_lir_125"/>
+               <l>tra coniunti conviene</l>
+               <l>metter deglialtri nel meço talora</l>
+            </lg>
+            <lg>
+               <l>Et in ciò piu honora</l>
+               <l>gli strani eglialtri da te ti riserva</l>
+               <l>e tu allegra serva</l>
+               <l>la faccia elovra e soffera ciascuno</l>
+            </lg>
+            <pb ed="Egidi" n="126" xml:id="Egidi_lir_126"/>
+            <lg>
+               <l>Ora pario ad ognuno</l>
+               <l>chi serve servi tagliando guaglianza [.]</l> 
+               <l>chi servito e mutanza</l>
+               <l>non faccia del miglior ma prenda il meno</l> 
+            </lg>
+            <lg>
+               <l>Invitar non si dieno</l>
+               <l>che son per ciò elibero el potere</l>
+               <pb ed="Egidi" n="127" xml:id="Egidi_lir_127"/>
+               <l>egravasil volere</l>
+               <l>di lui che con cagion forse asteneva</l>
+               
+            </lg>
+            <lg>
+               <l>Folle chi prima leva</l>
+               <l>dase iltaglier ancor glialtri mangiando</l> 
+               <l>echi non netto stando</l>
+               <l>fa dela mensa panier di rilievo</l>
+            </lg>
+            <pb ed="Egidi" n="128" xml:id="Egidi_lir_128"/>
+            <lg>
+               <l>Ecolui che fa lievo</l>
+               <l>di quel che noli piace e chi saffretta</l> 
+               <l>e colui che fa electa</l>
+               <l>di quelle cose che vegnon comuni</l>
+            </lg>
+            <lg>
+               <l>Ecolor che digiuni</l>
+               <l>piu semblan alafin chal coninciare</l>
+               <l>et ancor chi vuol fare</l>
+               <l>merli otrovar lo fondo ala scodella</l>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>
