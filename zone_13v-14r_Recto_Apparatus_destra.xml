@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
+            type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Documenti d'Amore</title>
+            <respStmt>
+               <resp>Responsabile della codifica</resp>
+               <persName>
+                  <forename>Laura</forename>
+                  <surname>Calvaresi</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><p></p></publicationStmt>
+         <sourceDesc><p></p></sourceDesc>
+      </fileDesc>
+   </teiHeader>
+
+   <facsimile>
+      <surface>
+         <graphic url="http://digi.vatlib.it/iiifimage/MSS_Barb.lat.4076/Barb.lat.4076_0027_fa_0013v-14r.jp2/full/full/0/default.jpg"/>
+         <zone points="754,72 1006,73 1014,686 764,697 756,349 881,345 871,121 755,118" xml:id="zone_13v-14r_Recto_Apparatus_destra"/>
+      </surface>
+   </facsimile>
+
+   <text>
+      <body>
+         <div type="Apparatus_destra">
+            <pb ed="MSS_Barb_lat_4076" facs="#zone_13v-14r_Recto_Apparatus_destra" xml:id="pb_13v-14r_Recto_Apparatus_destra" />
+            
+            <!-- questo è il mio secondo commento -->
+            <pb ed="Egidi" n="150" xml:id="Egidi_app_dx_150"/>
+            <ab> operantis immutat et infra Et idem in moralibus laus sua iustos cruciat iniquos exaltat . Recitat plinius in libro naturalis ystorie. In affrica esse homines qui dicuntur exfascinare voce et lingua ut (i)<note>ut <hi rend= "italics">nel cod. è scritto due volte, ma la prima volta è cancellato.</hi></note> si impensius forte laudaverint pulcras arbores segetes lectores infantes equos egregios pecudes partu et cultu optimas repente moriantur et pereant fascinatio quorum oculorum exciliatis est . Aristides adulatores fortune umbras esse dixit <hi rend= "underline"><hi rend= "italics">mendacii</hi></hi> . <label type= "marginalia"><hi rend="underlined_red">de mendacibus</hi></label> Scire debes quod secundum Augustinum .viij. sunt genera mendaciorum de quibus habes in canone .xxij. questione .ij<hi rend= "subscribed">a</hi>. in capitulo primum . sed longa est lictera . Et dicit etiam Augustinus quod mendacium est falsa significatio vocis cum voluntate (2)<note> <hi rend= "italics">Il ms.</hi> volutate <hi rend= "italics"> senza il segno d'abbreviazione.</hi></note> fallendi eadem causa et questione .[§]. ille ergo . Et idem contra mendaces in hencheridion capitulo .xij°. inquid Nemo sane mentiens iudicandus est qui dicit falsum quod putat verum . Item in hencheridion capitulo .xvj°. omne mendacium ideo dicendum est esse peccatum quia hoc debet loqui homo quod animo gerit etc . Menefrates dixit mendax vitio semper insanus est suo . cui ex loquacitate nascitur crimen . quando melius rem turpem honesto posset vitare silentio . <hi rend= "underline"><hi rend= "italics">detrahere</hi></hi> de hoc vitio inquid <label type= "marginalia"><hi rend="underlined_red">de detractoribus</hi></label>Anselmus in libro de similitudinibus capitulo</ab>
+            <pb ed="Egidi" n="151" xml:id="Egidi_app_dx_151"/>
+           <ab> .clxxxiiij°. Detractionis vitium quod maxime ex otiositate solet nasci multum est cavendum . quia pernitiosus est malum .
+            Et de penitentia distintione prima in capitulo homicidiorum dicitur quod tria sunt genera homicidij . que pari plectuntur pena interfectio . fraterna detractio hodium . de quo paulus inquid primo corinthiorum . Si commeditis et invicem mordetis videte ne ab invicem consummamini. legitur etiam Augustinum hos versus habuisse in mensa Quisquis amat dictis absentis rodere vitam hanc mensam indignam noverit esse sibi . Et illud bernardi . detrahentem proximo suo hunc persequebar . Item Anselmus in dicto libro de similitudinibus . qui alterius vitam per detractationem dilacerat se met ipsum ante iustum iudicem deum condempnat . Et ad hoc facit totius huius apparatus principium supra . et lictera testus predicti ibi bonum contempnere et hoc ad licteram eandem .
+            Et ambrosij dictum illud tollerabiliores sunt fures hiis (1)<note> hiis <hi rend= "italics">nel ms. è aggiunto sopra.</hi></note>  qui vestes et alia bona nostra diripiunt quam fures qui famam nostram lacerant . Et dicit ysidorus quod pari reatu tenentur detrahentes et audientes Et proverbiorum .xxv°. capitulo ventus aquilo dissipat pluvias facies tristis linguam detrahentem . et in ecclesiastico .xxviij. capitulo lingua tertia multos commovit et dispersit illos agente in gentem civitates muratas divitum destruxit et domos magnorum effodit virtutes populorum concidit et gentes fortes dissolvit . Et proverbiorum .iiij°. capitulo Remove ate os pravum et detrahentia labia sint procul ate . cum multis similibus .	<hi rend= "underline"><hi rend= "italics">seminare
+               discordiam etc </hi></hi>. ad hoc accedunt omnia hic supra proxime dicta cum per modum etiam detrahendi <label type= "marginalia"><hi rend= "underlined_red">de seminantibus</hi></label>talis seminatio fiat . Et illud quod in parabolis ponitur .vj°. capitulo Sex sunt que hodit dominus et septimum detestatur anima eius oculos sublimes cor macchinans cogitationes pessimas linguam mendacem manus effundentes innoxium sanguinem pedes veloces ad currendum in malum proferentem mendacia testem fallacem et eum qui seminat inter fratres discordias . Et presertim quod de lingua tertia dictum est proxime supra huic glose</ab>
+            <pb ed="Egidi" n="152" xml:id="Egidi_app_dx_152"/>
+            <ab>convenit . Et dic quod discordia est cordium dissonantia unde papias discordia diversum cor habere . dissentire discordia dissentio divortium . huius causa est cupiditas mundi et mundialium ut ait Augustinus .v°. de civitate dei capitulo .iiij°. qualiter enim propter hanc varia dissolvuntur patet Mathei .xij°. omne Regnum etc . et dicitur infra in parte secunda . documento .v. regula .cxxii<hi rend= "subscribed">a</hi>. Et secundum fabulas quia dea discordie non fuit vocata ad nuptias proiecit malum aureum in quo erat scriptum hoc est donum pulcerrime dee et inde ortum est bellum troianum unde et rome dee concordie fuit domus facta inter deas quod narrat Augustinus de civitate dei.	<hi rend= "underline"><hi rend= "italics"> ibi	guerram augere	etc </hi></hi> talis idem est cum seminante tantoque peior quod ubi esset pax inienda guerram (1)<note> <hi rend= "italics">segue</hi>ag <hi rend="italics"> cancellato.</hi></note>auget Et ubi deberet esse compositor ut dicit Massenius est offensor .<hi rend= "underline"><hi rend= "italics"> incredentia etc</hi></hi> . <label type= "marginalia"><hi rend="underlined_red"> de revelantibus</hi></label>dicit Socrates sepultus apud te sit sermo quem solus audieris idem intelligas si cum pluribus quod tenendum sit tam debito decentie quam mandato vel prece . tuum etiam secretum quod scire nolueris alteri non reveles de quo vide quod dicitur et notatur infra in parte .ij<hi rend= "subscribed">a</hi>. documento .v°. regula .cxxxvij<hi rend= "subscribed">a</hi>. (2)<note><hi rend= "italics">Il numero è aggiunto in margine</hi></note> est tamen ante quam ad sequentia descendamus hic dicamus aliqua circa duo Primo qualiter de hiis que in secreto dixeris aliis (3)<note><hi rend="italics">Segue</hi>te <hi rend="italics">cancellato.</hi></note> habere te decet Secundo qualiter in secreto tibi positum retinere [¶] Redeamus <label type= "marginalia"><hi rend="underlined_red">de tenendis secretis</hi></label> ad primum . De quo dic breviter quod circa hoc .v. sunt notanda primum ut ad loquendum de hoc illi queras aptum locum de quo alij te audire non possunt tuque postea illi adseriberes vitium alienum quare invenio quosdam principes tartarorum cum sua consilia celebrant ad campos publicos et apertos exire. non enim excogitari possent modi quibus ex casu in locis artis et clausis colloquentes invicem audiuntur ab extra . Secundum est ut illos si potes ad consilium voces quos tangat saltem aliqualiter status tuus . Tertium non pueros vel adoloscentes si potes sed Iuvenes saltem quod si potueris senes . Nec licet alias bonas nisi eas multum probaveris mulieres quia licet in hiis plurime bone sint attamen</ab>
+            <pb ed="Egidi" n="153" xml:id="Egidi_app_dx_153"/>
+            <ab>alique ad referendum faciles sunt reperte Quartum, ut quantumcumque intimi et amici tui sint illi vel etiam sapientes nichilominus tamen quod secretum tenendum est . illos roga quod teneant Nam aliquando ingnorantes utrum tenendum eum non ex malitia revelarent quo casu poteris protestari sic . domini licet sciam quod omnia que sciretis tenenda sine dicto aliquo teneretis tamen quia forsan aliqui in revelatione huius non crederent esse periculum laudo ut istud ab omnibus teneatur secretum . Quintum ut si es illorum superior habens spiritualem iurisdictionem in eos adicias penam spiritualem que latenter penetrat voluntates . dicens hanc penam adicimus ut possitis ab interrogantibus facilius vos tueri.	Sequitur de secundo de quo quattuor expedit nos notare primum ut te loquente vel aliquo interrogante ab omni actu signo seu verbi expressione abstineas per que aliquis possit presumere quidquam de impositis te nosse immo te singulos eorum omnino esse ingnarum . Secundum ut si forsan consuetudinis est tue ut [......]</ab>
+         </div>
+      </body>
+   </text>
+</TEI>
