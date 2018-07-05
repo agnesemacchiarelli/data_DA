@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
+            type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Documenti d'Amore</title>
+            <respStmt>
+               <resp>Responsabile della codifica</resp>
+               <persName>
+                  <forename>Agnese</forename>
+                  <surname>Macchiarelli</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p/>
+         </publicationStmt>
+         <sourceDesc>
+            <p/>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+
+   <facsimile>
+      <surface>
+         <graphic
+            url="http://digi.vatlib.it/iiifimage/MSS_Barb.lat.4076/Barb.lat.4076_0022_fa_0008v-9r.jp2/full/full/0/default.jpg"/>
+         <zone points="321,64 527,60 525,690 312,685 312,562 432,557 439,116 324,116"
+            xml:id="zone_8v-9r_Verso_Apparatus_destra"/>
+      </surface>
+   </facsimile>
+
+   <text>
+      <body>
+         <div type="Apparatus_destra">
+            <pb ed="MSS_Barb_lat_4076" facs="#zone_8v-9r_Verso_Apparatus_destra"
+               xml:id="pb_8v-9r_Verso_Apparatus_destra"/>
+
+            <ab>
+               <pb ed="Egidi" n="87" xml:id="Egidi_app_dx_87"/> quod est et non est. scruptari
+               eligit et huius sunt tres partes scilicet mathematica que speculatur visibiles rerum
+               visibilium formas et physica que scruptatur invisibiles rerum visibilium causas. et
+               methaphisica que contemplatur invisibiles substautias et invisibilium substantiarum
+               invisibiles naturas. predicte vero distinctiones conveniunt phylosophie aliter et
+               aliter accepte. huic etiam parti morali supponitur totum corpus iuris canonici et
+               civilis et omnis tractatus de regimine universi et satis manifestum est adeo ut non
+               expediat nunc amplius de hoc loqui, hanc digniorem partem esse phylosophie in quantum
+               anima est dignior corpore. Sed quia de phylosophia <label type="marginalia"
+                  place="margin_right"><hi rend="underlined_red">quod phylosophia</hi></label> facta
+               est hic mentio dic quid sit phylosophia iuxta diversas diffinitiones quas possimus
+               sub brevitate resolvere. et dic quod phylosophia est ut dicit
+                  Alpharabius ars artium et disciplina disciplinarum Et
+                  seneca phylosophie est quod bene vivimus Et idem etiam
+               phylosophiam dividit in tres partes moralem que componit animum, naturalem que rerum
+               naturas scruptatur. rationalem que proprietatem verborum exigit et scrupta <pb
+                  ed="Egidi" n="88" xml:id="Egidi_app_dx_88"/> tur argumentationes ne pro vero falsa
+               surrepant. et dic quod phylosophia sine virtute et sine phylosophia virtus esse non
+               potest. quia phylosophia est studium virtutis Augustinus etiam
+               de civitate dei dicit quod phylosophia est amor sapientie et idem dicit id idem
+               contra achademicos et idem dicit boetius in arismetrica
+               phylosophia est cognitio entium. secundum que entia sunt. vel divinarum humanarumque
+               rerum congnitio. ut ait damasenus in logica sua. huic ultime
+               addit gundisalmus in libro de ortu scientiarum scilicet cum
+               studio vivendi. Et damascenus philosophia est assimilatio deo.
+               secundum quod possibile est. et plato in phedrone phylosophia
+               est tedium et cura et studium et sollicitudo mortis idest mortificationis carnalium
+               desideriorum ut ait alpharabius de divisione phylosophie. vel
+               secundum eundem est sui ipsius ab homine cognitio operibus gloriosi creatoris et
+               sublimis perceptio veritatis. hoc nomen phylosophie si latine interpretamur est amor
+               sapientie et fuit a pictagoras
+               <label type="marginalia" place="margin_right"><hi rend="underlined_red">pictagora</hi></label>
+               inventum. qui se phylosophum idest studiosum vel
+               amatorem sapientie Respondit interroganti quoniam se sapientie profiteri
+               arrogantissimum videbatur. sophyam ergo idest sapientiam amans phylosophus est. Super
+               hoc vide si vis tullium in libro de questionibus. et
+                  hugonem didascalum libro .i°. Huic ultime parti dic quod
+               liber iste supponitur. ut dicitur supra circa principium in glosa. <hi rend="italic"> De directione iustitie</hi>
+               <label type="marginalia" place="margin_right"><hi rend="underlined_red">si cum
+                     iustis</hi></label> per hoc datur nobis intelligi quod est summum bonum in vita
+               iustitiam colere. cuius laudes et diffinitiones habebis infra sub parte iustitie in
+               principio testus et glose. et per totam partem. <hi rend="italic">de re cum militibus
+                  etc</hi>
+               <label type="marginalia" place="margin_right"><hi rend="underlined_red">si cum
+                     militibus</hi></label> bene dicit nam sicut non decet mulieres instrui ad
+               bellandum sic nec milites informari ad fusum. unde seneca.
+               dabimus munera non supervacua mulieri non dabimus arma militaria dabimus munera etiam
+               exprobatura cuique suum morbum. ebrioso non dabis vina etc unde bene dicit lictera
+                  <pb ed="Egidi" n="89" xml:id="Egidi_app_dx_89"/> tracta cum eis de re militari et
+               de hiis que habes infra in parte industrie documento .iiij<hi rend="subscribed"
+                  >o</hi>. et in locis huius libri ad que ibi remitteris in glosis. <hi
+                  rend="italic">Inter dominas</hi>
+               <label type="marginalia" place="margin_right"><hi rend="underlined_red">si cum
+                     dominabus</hi></label> etc. dixit Garagraffulus gribolus
+               quod ista erat mala lictera et allegavit ovidium de arte amandi
+               et alios pro se multos allegavit etiam dicta domine <persName>Auliane</persName> de
+                  Anglia et domine Bonbachaie de
+                  pisis et dicta domini Guillelmi de
+                  Bergadamo subiungens quod ipse volebant audire de hiis que
+               pertinent ad amandum. etiam ultra quam dicatur infra sub parte discretionis venture
+               que .iiij<hi rend="subscribed">o</hi>. est non recito effrenata verba ipsius. Sed
+               dico quod male locutus est. nam aut loquitur de bonis aut de malis si de malis liber
+               iste non tractat de illis si de bonis plana est lictera. et esto quod alique truffas
+               forsan referri appeterent, dico quod si eis placere desideres, honeste loquentem,
+               magis te amabunt et ne dum bone, verum etiam male sique interfuerint te <note><hi
+                     rend="italic">Nel ms. segue</hi> an <hi rend="italic">cancellato</hi></note>
+               laudabunt talium tamen laudes non queras. In favorem huius lictere <label
+                  type="marginalia" place="margin_right"><hi rend="underlined_red"
+                  >exemplum</hi></label> facit exemplum quod folchettus de
+                  Marsilia inquid quod qui honestam amat magis amat quam
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>
